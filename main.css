@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+section {
+  height: 100vh;
+  background-color: #0e1120;
+}
+
+.bg-img {
+  background-image: url(bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-end {
+  color: #586a85;
+  font-size: 12px;
+}
+
+.form-control {
+  background-color: #0d0f1c;
+  color: #586a85;
+  border: none;
+  padding: 14px;
+  box-shadow: 0 2px 4px rgba(122, 122, 122, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: #586a85;
+}
+
+.form-control:active,
+.form-control:focus {
+  background-color: #0d0f1c;
+  color: #586a85;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(129, 129, 129, 0.2);
+}
+
+.btn-submit {
+  position: relative;
+  background-color: #72a0fe;
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn-submit:hover {
+  position: relative;
+  background-color: #5a8df5;
+  color: #fff;
+  font-size: 12px;
+}
+
+hr {
+  color: #586a85;
+}
+
+.icon {
+  background-color: #252b4d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: rgb(35, 41, 73);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon img {
+  height: 18px;
+}
+
+.icon p {
+  margin-top: 3px;
+  color: #fff;
+}
+
+.text-footer {
+  color: #586a85;
+  font-size: 14px;
+}
